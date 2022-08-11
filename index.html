@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&family=Roboto:wght@100;400;500;700&family=Rubik:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Juego de Memoria</title>
+   
+</head>
+
+<body>
+    <main>
+        <section class="section1">
+            
+            <h1>Juego de Memoria.</h1>
+           
+            <table>
+                <tr>
+                    <td><button id="0" onclick=" handlerButtom(0)"></button></td>
+                    <td><button id="1" onclick=" handlerButtom(1)"></button></td>
+                    <td><button id="2" onclick=" handlerButtom(2)"></button></td>
+                    <td><button id="3" onclick=" handlerButtom(3)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="4" onclick=" handlerButtom(4)"></button></td>
+                    <td><button id="5" onclick=" handlerButtom(5)"></button></td>
+                    <td><button id="6" onclick=" handlerButtom(6)"></button></td>
+                    <td><button id="7" onclick=" handlerButtom(7)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="8" onclick=" handlerButtom(8)"></button></td>
+                    <td><button id="9" onclick=" handlerButtom(9)"></button></td>
+                    <td><button id="10" onclick=" handlerButtom(10)"></button></td>
+                    <td><button id="11" onclick=" handlerButtom(11)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="12" onclick=" handlerButtom(12)"></button></td>
+                    <td><button id="13" onclick=" handlerButtom(13)"></button></td>
+                    <td><button id="14" onclick=" handlerButtom(14)"></button></td>
+                    <td><button id="15" onclick=" handlerButtom(15)"></button></td>
+                </tr>
+            </table>
+        </section>
+        <section class="section2">
+            
+            <div  class="reset" id="resetid" onclick="handlerReset()" >
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Reiniciar  JUEGO
+                </div>
+            </div>
+            <h2 id="smallHitsid" class="statistics">Aciertos: 0</h2>
+            <h2 id="timeLeftid" class="statistics">Tiempo:  segundos</h2>
+            <h2 id="movementsid" class="statistics">Movimientos: 0</h2>
+           
+        </section>
+    </main>
+    <footer>
+        <p>🎮💻 Juego programado por 👉<a target="_blank"href="https://www.linkedin.com/in/mat%C3%ADas-vega-98a527239/" >Matías Vega</a>
+        </p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

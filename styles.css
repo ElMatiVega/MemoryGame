@@ -1,0 +1,157 @@
+body{
+    /* background-image: url("./image/WhatsApp Image 2022-06-12 at 1.20.22 AM.jpeg");
+     */
+     background-color: #e9080b;
+     background-image: linear-gradient(43deg, #e9080b 0%, #080604 46%, #770101 100%);
+     
+    color:white;
+}
+main{
+   width: 730px;
+    margin: 100px auto 50px;
+    display: flex;
+    align-items: center;
+}
+.section1{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+
+}
+
+
+h1{
+    text-align: center;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.section2{
+    background-color:rgba(255, 255, 255, 0.2);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 250px;
+    height: 450px;
+    padding: 0 20px;
+}
+.statistics{
+    border: 1px solid white;
+    height: 105px;
+    border-radius: 8px;
+    padding: 8xp 20px;
+    box-sizing: border-box;
+}
+footer{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    font-size: larger;
+    color: black;
+}
+img{
+    width: 5rem;
+}
+
+.reset div{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #e9080b;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    overflow: hidden;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.reset div:hover {
+    color:#770101;
+    background: #e9080b;
+    box-shadow: 0 0 10px #e9080b, 0 0 40px #e9080b, 0 0 80px #e9080b;
+    transition-delay: 1s;
+}
+
+.reset div span{
+    position: absolute;
+    display: block;
+}
+
+.reset div span:nth-child(1){
+    top:0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#e9080b);
+}
+
+.reset div:hover span:nth-child(1){
+    left:100%;
+    transition: 1s;
+}
+
+.reset div span:nth-child(3){
+    bottom:0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#e9080b);
+}
+
+.reset div:hover span:nth-child(3){
+    right:100%;
+    transition: 1s;
+    transition-delay:0.5s ;
+}
+
+.reset div span:nth-child(2){
+    top:-100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#e9080b);
+}
+
+.reset div:hover span:nth-child(2){
+    top:100%;
+    transition: 1s;
+    transition-delay:0.25s ;
+}
+
+.reset div span:nth-child(4){
+    bottom:-100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#e9080b);
+}
+
+.reset div:hover span:nth-child(4){
+    bottom:100%;
+    transition: 1s;
+    transition-delay:0.75s ;
+}
+
+@media (max-width: 750px) {
+    main {
+        flex-direction: column;
+        background-repeat: no-repeat;
+        
+    }
+
+ }
+ 
