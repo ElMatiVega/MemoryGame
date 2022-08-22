@@ -105,7 +105,7 @@ if(hits===8){
     showTimer.innerHTML=`Genial!!! lo hiciste en ${initialTime-timerBack} segundos.`
     if(movements===8){
         showMovements.innerHTML=`Movimientos: ${movements} Te Super-Mega-ArchiFELICITO, Perfecto `;
-    }else if(movements >8&&movements<14){
+    }else if(movements >8&&movements<15){
         showMovements.innerHTML=`Movimientos: ${movements} Muy bien te Felicito, ganaste estos animalitos🐶🐱‍🚀🐱‍🐉🦓`;
     }else{
         showMovements.innerHTML=`Movimientos: ${movements} Bien sigue así👏👏👏👏`;
