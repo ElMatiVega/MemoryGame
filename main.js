@@ -102,10 +102,10 @@ if(hits===8){
     winAudio.play();
     clearInterval(timer_Back_Id);
     showHits.innerHTML= `Aciertos: ${hits}👏👏😀🎉🎊🎆🎆`;
-    showTimer.innerHTML=`Genial!!! solo te demoraste ${initialTime-timerBack} segundos.`
+    showTimer.innerHTML=`Genial!!! lo hiciste en ${initialTime-timerBack} segundos.`
     if(movements===8){
         showMovements.innerHTML=`Movimientos: ${movements} Te Super-Mega-ArchiFELICITO, Perfecto `;
-    }else if(movements >8&&movements<12){
+    }else if(movements >8&&movements<14){
         showMovements.innerHTML=`Movimientos: ${movements} Muy bien te Felicito, ganaste estos animalitos🐶🐱‍🚀🐱‍🐉🦓`;
     }else{
         showMovements.innerHTML=`Movimientos: ${movements} Bien sigue así👏👏👏👏`;
